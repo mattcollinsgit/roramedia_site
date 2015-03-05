@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #loading-mask {
-    background: #333439;
+    background: #074B75;
     height: 100%;
     left: 0;
     opacity: 1;
@@ -268,10 +268,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #slitSlider .carousel-caption h3 {
-    color: #FFF;
-    font-family: Oswald, sans-serif;
+    color: #EEE;
+    font-family: "Open sans", sans-serif;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 200;
     margin-bottom: 59px;
 }
 
@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================*/
 
 .navbar-inverse {
-	background-color: #FEFEFE;
+	background-color: #EEE;
 	width: 100%;
 	z-index: 99;
 }
@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-inverse .navbar-nav > li.current > a {
     color: #074B75;
-    background-color: #EEE;
+    background-color: #FFF;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
@@ -1209,6 +1209,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid #4e595f;
     bottom: 15px;
     color: #fff;
+    background-color: #0c85cf;
     display: none;
     padding: 8px 12px;
     position: fixed;
@@ -1619,4 +1620,7 @@ blockquote {
 .form-group:last-child input {
   margin: 0;
 }
-                            
+
+#rorablue {
+    color: #0c85cf;
+}

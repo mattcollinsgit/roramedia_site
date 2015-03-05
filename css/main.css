@@ -27,10 +27,10 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 ==================================================================*/
 
 body {
-    background-color: #FFF;
+    background-color: #074B75;
 	font-family: 'Ubuntu', 'Arial', sans-serif;
     line-height: 1.5;
-    color: #0c85cf;
+    color: #FFF;
 }
 
 ol, ul {
@@ -194,11 +194,11 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 38px;
-    color: #000;
+    color: #FFF;
 }
 
 .color {
-    color: #074B75;
+    color: #0c85cf;
 }
 
 .sub-title {
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-one {
-    background-color: #FEFEFE;
+    background-color: #000;/*Second background color*/
 }
 
 .parallax-section {
@@ -282,13 +282,13 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================*/
 
 .navbar-inverse {
-	background-color: #EEE;
+	background-color: #eeeeee;
 	width: 100%;
 	z-index: 99;
 }
 
 .navbar {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #0c85cf;
   margin-bottom: 0;
 }
 
@@ -302,7 +302,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #000;
+    color: #0c85cf;
     font-size: 14px;
     line-height: 26px;
     padding: 20px 15px;

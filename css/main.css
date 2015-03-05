@@ -417,6 +417,7 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================*/
 
 #counter {
+    height: 50vh;
     background-image: url(../img/parallax/city.jpg);
     padding: 70px 0;
 }
@@ -512,7 +513,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background: #63B670;
+	background: #0c85cf;
 	content: '';
 	
 	-webkit-transition: top 0.3s;
@@ -527,7 +528,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	width: 2px;
 	height: 2px;
-	background: #63B670;
+	background: #0c85cf;
 	content: '';
 	
 	-webkit-transition: height 0.3s;

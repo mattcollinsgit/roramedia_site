@@ -1049,7 +1049,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .contact-form .form-control {
 	background-color: transparent;
-	border: 1px solid #4e595f;
+	border: 1px solid #2996D2;
 	height: 38px;
 }
 
@@ -1060,7 +1060,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #contact-submit {
-	border: 1px solid #4e595f;
+	border: 1px solid #2996D2;
 	padding: 12px 0;
 	width: 100%;
 	margin: 0;

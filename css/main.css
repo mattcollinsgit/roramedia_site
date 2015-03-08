@@ -18,9 +18,10 @@
 
 body {
     background-color: #074B75;
-	font-family: 'Ubuntu', 'Arial', sans-serif;
-    line-height: 1.5;
+	font-family: 'Open Sans','Ubuntu', 'Arial', sans-serif;
+    line-height: 1.7;
     color: #FFF;
+    font-weight: 100;
 }
 
 ol, ul {
@@ -93,12 +94,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-transparent {
-	border: 1px solid #4e595f;
+	border: 1px solid #fff;
 }
 
 .btn-transparent:focus {
     background-color: transparent;
-    border-color: #074B75;
+    border-color: green;
 }
 
 .btn-transparent:hover {
@@ -930,7 +931,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-profile a {
-    color: #4e595f;
+    color: #074B75;
 	display: block;
 }
 
@@ -939,7 +940,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-profile li a:hover {
-	color: #074B75;
+	color: #ff9400;
 }
 
 .owl-pagination,
@@ -1117,6 +1118,10 @@ h1, h2, h3, h4, h5, h6 {
 	Footer section
 ==================================================================*/
 
+h1.footer {
+    font-family: "pacifico" serif;
+}
+
 .social-icon {
     padding: 60px 0 35px;
 }
@@ -1131,7 +1136,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-icon > ul > li > a {
-    background-color: #26292e;
+    background-color: #074B75;
     display: block;
     height: 70px;
     width: 70px;
@@ -1149,7 +1154,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-icon > ul > li > a > i {
-    color: #55606a;
+    color: #0c85cf;
     display: inline-block;
     font-size: 32px;
     line-height: 70px;
@@ -1171,7 +1176,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-icon > ul > li:hover a {
-    background-color: #074B75;
+    background-color: #0c85cf;
 	
 	-webkit-transform: rotateY(0deg);
 	   -moz-transform: rotateY(0deg);
@@ -1181,7 +1186,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-icon > ul > li:hover a i {
-    color: #fff;
+    color: #ff9400;
     opacity: 1;
     filter: alpha(opacity=100);
 	

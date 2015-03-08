@@ -150,7 +150,7 @@ jQuery(function ($) { "use strict";
 	$(".chart").appear(function () {
 		$(".chart").easyPieChart({
 			easing: "easeOutBounce",
-			barColor: "#0c85cf",
+			barColor: "#ff9400",
 			size: "150",
 			lineWidth: 15,
 			animate: 2e3,
@@ -286,13 +286,13 @@ jQuery(function ($) { "use strict";
 
 	function initialize() {
 
-		var myLatLng = new google.maps.LatLng(22.333851, 91.812256);
+		var myLatLng = new google.maps.LatLng(55.864237, -4.251805);
 
 		var roadAtlasStyles = [{
 			"featureType": "landscape",
 			"elementType": "geometry.fill",
 			"stylers": [{
-				"color": "#2F3238"
+				"color": "#074B75"
 			}]
 		}, {
 			"elementType": "labels.text.fill",
@@ -308,7 +308,7 @@ jQuery(function ($) { "use strict";
 			"featureType": "road",
 			"elementType": "geometry.fill",
 			"stylers": [{
-				"color": "#50525f"
+				"color": "#ff9400"
 			}]
 		}, {
 			"featureType": "road",

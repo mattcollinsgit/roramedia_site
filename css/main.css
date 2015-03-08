@@ -458,6 +458,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service-block {
+	background-color: #ff9400;
     padding: 50px 20px;
     border-left: 1px solid #4e595f;
     border-top: 1px solid #4e595f;

@@ -836,7 +836,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .price-title > h3 {
-    color: #074B75;
+    color: #FF9400;
     font-family: Oswald;
     font-weight: 700;
     margin: 0 0 10px;
@@ -850,7 +850,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .price-title .value {
-	color: #074B75;
+	color: green;
 	font-size: 30px;
 }
 

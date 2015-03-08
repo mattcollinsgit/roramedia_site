@@ -25,7 +25,7 @@ jQuery(function ($) { "use strict";
 		cursorborderradius: 0,
 		cursorwidth: "8px",
 		cursorfixedheight: 150,
-		cursorcolor: "#0c85cf",
+		cursorcolor: "#ff9400",
 		zindex: 9999,
 		cursorborder: 0,
 	});

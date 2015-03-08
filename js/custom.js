@@ -25,7 +25,7 @@ jQuery(function ($) { "use strict";
 		cursorborderradius: 0,
 		cursorwidth: "8px",
 		cursorfixedheight: 150,
-		cursorcolor: "#6CB670",
+		cursorcolor: "#0c85cf",
 		zindex: 9999,
 		cursorborder: 0,
 	});
@@ -150,7 +150,7 @@ jQuery(function ($) { "use strict";
 	$(".chart").appear(function () {
 		$(".chart").easyPieChart({
 			easing: "easeOutBounce",
-			barColor: "#6CB670",
+			barColor: "#0c85cf",
 			size: "150",
 			lineWidth: 15,
 			animate: 2e3,

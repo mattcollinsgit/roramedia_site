@@ -216,12 +216,12 @@
 
     .navbar-inverse .navbar-toggle,
 	.navbar-inverse .navbar-toggle .icon-bar {
-        border-color: #0c85cf;
+        border-color: #074B75;
         border-radius: 0;
     }
 
     .navbar-inverse .navbar-toggle:hover {
-        border-color: #074B75;
+        border-color: #FFF;
         border-radius: 0;
     }
 

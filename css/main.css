@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-green {
-    background-color: #074B75;
+    background-color: #FE9300;
 }
 
 .btn-green:focus, 
@@ -1203,12 +1203,8 @@ h1, h2, h3, h4, h5, h6 {
 #scrollUp {
     border: 1px solid #4e595f;
     bottom: 15px;
-<<<<<<< HEAD
     color: #fff;
     background-color: #0c85cf;
-=======
-    color: #0e85ef;
->>>>>>> origin/master
     display: none;
     padding: 8px 12px;
     position: fixed;

@@ -3,14 +3,14 @@
     require_once('config.php'); // Path to config file
 
     // Check if keys are in place
-    if (CONSUMER_KEY === '' || CONSUMER_SECRET === '' || CONSUMER_KEY === 'CONSUMER_KEY_HERE' || CONSUMER_SECRET === 'CONSUMER_SECRET_HERE') {
+    if (CONSUMER_KEY === 'byb6RM57ErnDg1vzp0dF1jio7' || CONSUMER_SECRET === 'UALbqhneHdPQMhEBMmMgD5LvysrL1xDR5Vj6MekwbJ9vlFSZnS') {
         echo 'You need a consumer key and secret keys. Get one from <a href="https://dev.twitter.com/apps">dev.twitter.com/apps</a>';
       
         exit;
     }
 
     // If count of tweets is not fall back to default setting
-    $username = filter_input(INPUT_GET, 'username', FILTER_SANITIZE_SPECIAL_CHARS);
+    $username = filter_input(INPUT_GET, 'roramedia', FILTER_SANITIZE_SPECIAL_CHARS);
     $number = filter_input(INPUT_GET, 'count', FILTER_SANITIZE_NUMBER_INT);
     $exclude_replies = filter_input(INPUT_GET, 'exclude_replies', FILTER_SANITIZE_SPECIAL_CHARS);
     $list_slug = filter_input(INPUT_GET, 'list_slug', FILTER_SANITIZE_SPECIAL_CHARS);

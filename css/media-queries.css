@@ -216,17 +216,17 @@
 
     .navbar-inverse .navbar-toggle,
 	.navbar-inverse .navbar-toggle .icon-bar {
-        border-color: #4e595f;
+        border-color: #0c85cf;
         border-radius: 0;
     }
 
     .navbar-inverse .navbar-toggle:hover {
-        border-color: #ddd;
+        border-color: #074B75;
         border-radius: 0;
     }
 
     .navbar-inverse .navbar-toggle .icon-bar:hover {
-        background-color: #ddd;
+        background-color: #ff9400;
     }
 
     .navbar-collapse.in {
@@ -432,7 +432,7 @@
     }
 
     .navbar-inverse .navbar-toggle {
-        border-color: #6CB670;
+        border-color: #ff9400;
         border-radius: 0;
     }
 

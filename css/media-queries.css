@@ -38,6 +38,7 @@
 
     .team-mate img {
         margin: 0 auto;
+        display: block;
     }
 
     .member-info ul li {

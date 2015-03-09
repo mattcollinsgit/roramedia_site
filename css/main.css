@@ -66,8 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-    background-color: transparent;
-    color: #0e85ef;
+    background-color:#0e85ef;
     padding: 10px 30px;
 	border-radius: 0;
     margin-top: 15px;
@@ -89,12 +88,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-green:focus, 
 .btn-green:hover {
-    background-color: #2F383D;
+    background-color: #074B75;
 	color: #fff;
 }
 
 .btn-transparent {
-	border: 1px solid #fff;
+	/*border: 1px solid #fff;*/
 }
 
 .btn-transparent:focus {

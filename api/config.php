@@ -4,8 +4,8 @@
      */
     
     // Consumer Key
-    define('CONSUMER_KEY', 'gPxQGG0X19FzaPlWWWjzcwdjA');
-    define('CONSUMER_SECRET', 'nuM6iS3SHHzhGdO6O1uwq8Cgbq0G2ZBePmI5NLupUZx8pE4gk9');
+    define('CONSUMER_KEY', 'byb6RM57ErnDg1vzp0dF1jio7');
+    define('CONSUMER_SECRET', 'UALbqhneHdPQMhEBMmMgD5LvysrL1xDR5Vj6MekwbJ9vlFSZnS');
 
     // User Access Token
     define('ACCESS_TOKEN', '2735035292-oYp8rlSp42wsmQF7BMQKTllIQ4k7O5nfw7DWBPl');

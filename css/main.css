@@ -1059,6 +1059,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact-form textarea:hover,
 #contact-submit:hover {
     border-color: #074B75;
+    color: #fff;
 }
 
 #contact-submit {

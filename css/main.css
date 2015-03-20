@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 0;
 	padding: 5px 10px;
 	border: 0 none;
-	color: #ddd;
+	color: #000;
 }
 
 .form-control:focus {
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .border {
-    border-top: 1px solid #fff;
+    border-top: 1px solid #000;
     height: 1px;
     margin: 15px auto 0;
     position: relative;
@@ -167,8 +167,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .border:before {
-    background-color: #fff;
-    border: 1px ridge #fff;
+    background-color: #000;
+    border: 1px ridge #000;
     content: "";
     height: 10px;
     left: 50%;
@@ -1063,7 +1063,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact-form textarea:hover,
 #contact-submit:hover {
     border-color: #074B75;
-    color: #fff;
+    color: #000;
 }
 
 #contact-submit {
@@ -1107,7 +1107,7 @@ h1, h2, h3, h4, h5, h6 {
 .success {
     background-color: #074B75;
     border-radius: 4px;
-    color: #fff;
+    color: #0c85cf;
     display: none;
     font-size: 13px;
     padding: 10px;

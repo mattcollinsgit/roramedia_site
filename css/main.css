@@ -1126,82 +1126,51 @@ h1, h2, h3, h4, h5, h6 {
 	Footer section
 ==================================================================*/
 
+#footer{
+  padding-top: 4%;
+  padding-bottom: 4%;
+  background-color: #000000;
+  color: #DBDBDB;
+}
+
+#tweets{
+  color: #0c85cf;
+}
+
+.social-icon.a {
+    display: block;
+    height: 70px;
+    width: 70px;
+    transition: all 400ms ease-out 0s;
+    transform: rotateY(180deg);
+}
+
+.social-icon.a.i {
+    color: #0C85CF;
+    display: inline-block;
+    font-size: 32px;
+    line-height: 70px;
+    margin: 0px;
+    opacity: 0.5;
+    transform: rotateY(180deg);
+    transition: all 400ms ease-out 0s;
+}
+
+
 h1.footer {
     font-family: "pacifico" serif;
 }
 
-.social-icon {
-    padding: 60px 0 35px;
+.site-map{
+  border-right: 1px solid #DBDBDB;
 }
 
-.social-icon > ul {
-    text-align: center;
+.social{
+  border-right: 1px solid #DBDBDB;
 }
 
-.social-icon > ul > li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.social-icon > ul > li > a {
-    display: block;
-    height: 70px;
-    width: 70px;
-
-	-webkit-transform: rotateY(180deg);
-	   -moz-transform: rotateY(180deg);
-		-ms-transform: rotateY(180deg);
-		 -o-transform: rotateY(180deg);
-			transform: rotateY(180deg);
-
-	-webkit-transition: all 400ms ease-out 0s;
-	   -moz-transition: all 400ms ease-out 0s;
-		 -o-transition: all 400ms ease-out 0s;
-			transition: all 400ms ease-out 0s;
-}
-
-.social-icon > ul > li > a > i {
-    color: #0c85cf;
-    display: inline-block;
-    font-size: 32px;
-    line-height: 70px;
-    margin: 0;
-
-    opacity: 0.5;
-    filter: alpha(opacity=30);
-
-	-webkit-transform: rotateY(180deg);
-	   -moz-transform: rotateY(180deg);
-		-ms-transform: rotateY(180deg);
-		 -o-transform: rotateY(180deg);
-			transform: rotateY(180deg);
-
-	-webkit-transition: all 400ms ease-out 0s;
-	   -moz-transition: all 400ms ease-out 0s;
-		 -o-transition: all 400ms ease-out 0s;
-			transition: all 400ms ease-out 0s;
-}
-
-.social-icon > ul > li:hover a {
-    background-color: #0c85cf;
-
-	-webkit-transform: rotateY(0deg);
-	   -moz-transform: rotateY(0deg);
-		-ms-transform: rotateY(0deg);
-		 -o-transform: rotateY(0deg);
-			transform: rotateY(0deg);
-}
-
-.social-icon > ul > li:hover a i {
-    color: #ff9400;
-    opacity: 1;
-    filter: alpha(opacity=100);
-
-	-webkit-transform: rotateY(0deg);
-	   -moz-transform: rotateY(0deg);
-		-ms-transform: rotateY(0deg);
-		 -o-transform: rotateY(0deg);
-			transform: rotateY(0deg);
+.contact{
+  border-right: 1px solid #DBDBDB;
 }
 
 .copyright {
@@ -1210,6 +1179,7 @@ h1.footer {
 }
 
 .copyright > img {
+  width: 100%;
     margin-bottom: 15px;
 }
 

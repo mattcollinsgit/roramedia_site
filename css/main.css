@@ -139,9 +139,9 @@ h1, h2, h3, h4, h5, h6 {
    color: #ddd;
 }
 
-
+/*Loading background colour*/
 #loading-mask {
-    background: #074B75;
+    background: #fafafa;
     height: 100%;
     left: 0;
     opacity: 1;
@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .color {
-    color: #FF9400; /*ORANGE offset*/
+    color: #0c85cf; /*ORANGE offset*/
 }
 
 .sub-title {
@@ -248,7 +248,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     top: 0;
     z-index: 11;
-	background-color: rgba(0,0,0,.5);
+	background-color: rgba(255,255,255,.5);
 }
 
 #slitSlider .carousel-caption a {
@@ -847,7 +847,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .price-title > h3 {
-    color: #FF9400;
+    color: #0c85cf;
     font-family: Oswald;
     font-weight: 700;
     margin: 0 0 10px;
@@ -949,7 +949,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-profile li a:hover {
-	color: #ff9400;
+	color: #0c85cf;
 }
 
 .owl-pagination,
@@ -1195,7 +1195,7 @@ h1.footer {
 }
 
 .social-icon > ul > li:hover a i {
-    color: #ff9400;
+    color: #0c85cf;
     opacity: 1;
     filter: alpha(opacity=100);
 

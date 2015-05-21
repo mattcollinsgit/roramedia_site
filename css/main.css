@@ -261,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #slitSlider .carousel-caption h2 {
-    color: #FFF;
+    color: #0c85cf;
     font-family: Oswald, sans-serif;
     font-size: 70px;
     font-weight: 700;
@@ -490,10 +490,9 @@ h1, h2, h3, h4, h5, h6 {
 /*=================================================================
 	Portfolio section
 ==================================================================*/
-
-#showcase {
-    padding: 75px 0;
-}
+ #showcase {
+ height: 100%;
+ }
 
 .portfolio-filter {
     margin-bottom: 15px;
@@ -1633,4 +1632,18 @@ blockquote {
 
 #rorablue {
     color: #0c85cf;
+}
+
+#rorabluebg {
+    background: #0c85cf;
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+}
+
+#rorabluebg h1 {
+ padding-top:10px;
+    font-size:80px;
 }

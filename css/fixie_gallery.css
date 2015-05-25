@@ -1,9 +1,13 @@
 .fixie {
-    padding: 50px; 
+    padding-top:200px;
+}
+
+#whiteheader {
+margin-top:50px;
 }
 
 ul.fixie {
-  width: 90vw;
+  width: 88vw;
   margin: 0 auto;
   line-height: 0;
   -moz-column-count: 3;
@@ -43,10 +47,6 @@ ul.fixie li:after {
   -webkit-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
 }
-ul.fixie li:hover {
-  position: relative;
-    background: rgba (12,133,207, 0.8);
-}
 
 ul.fixie li:hover:before {
   position: absolute;
@@ -59,24 +59,10 @@ ul.fixie li:hover:before {
   left: 30%;
   z-index: 1;
   padding-top: 20px;
+    
 }
-ul.fixie li:hover:after {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  top: 0;
-  left: 0;
-  display: block;
-  text-align: center;
-}
-ul.fixie li:hover {
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
-  -moz-filter: blur(3px);
-  -o-filter: blur(3px);
-  -ms-filter: blur(3px);
-        
-}
+
+
 
 ul.fixie img {
   width: 100% !important;

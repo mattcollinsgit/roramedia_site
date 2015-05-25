@@ -56,7 +56,7 @@ a, a:focus, a:hover {
 }
 
 a:focus, a:hover {
-    color: #074B75;
+    color: #0C85CF;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-    background-color:#0e85ef;
+    background-color:#0c85cf;
     color:#FFF;
     padding: 10px 30px;
 	border-radius: 0;
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-green:focus,
 .btn-green:hover {
-    background-color: #074B75;
+    background-color: #0C85CF;
 	color: #fff;
 }
 
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-transparent:hover {
-    background-color: #074B75;
+    background-color: #0C85CF;
 	border: 1px solid transparent;
     color: #fff;
 }
@@ -791,7 +791,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mask ul li a:hover {
-    background-color: #074B75;
+    background-color: #0C85CF;
     border: 1px solid transparent;
 }
 
@@ -825,7 +825,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .tweet a {
-    color: #074B75;
+    color: #0C85CF;
 }
 
 /*=================================================================
@@ -939,7 +939,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-profile a {
-    color: #074B75;
+    color: #0C85CF;
 	display: block;
 }
 
@@ -974,7 +974,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .owl-controls .owl-page.active span,
 .owl-controls .owl-page:hover span {
-    background-color: #074B75;
+    background-color: #0C85CF;
     border: 2px solid transparent;
 }
 
@@ -1066,7 +1066,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact-form input:hover,
 .contact-form textarea:hover,
 #contact-submit:hover {
-    border-color: #074B75;
+    border-color: #0C85CF;
     color: #000;
 }
 
@@ -1109,7 +1109,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .success {
-    background-color: #074B75;
+    background-color: #0C85CF;
     border-radius: 4px;
     color: #0c85cf;
     display: none;
@@ -1185,7 +1185,7 @@ h1.footer {
 }
 
 #scrollUp {
-    border: 1px solid #074B75;
+    border: 1px solid #0C85CF;
     bottom: 15px;
     color: #fff;
     background-color: #0c85cf;
@@ -1197,8 +1197,8 @@ h1.footer {
 }
 
 #scrollUp:hover {
-    background-color: #074B75;
-    border: 1px solid #074B75;
+    background-color: #0C85CF;
+    border: 1px solid #0C85CF;
 }
 
 
@@ -1213,9 +1213,9 @@ h1.footer {
 }
 
 .blog-icon {
-    border: 1px solid #074B75;
+    border: 1px solid #0C85CF;
     border-radius: 50%;
-    color: #074B75;
+    color: #0C85CF;
     display: inline-block;
     padding: 16px 20px;
 }
@@ -1305,7 +1305,7 @@ h1.footer {
 }
 
 .post-meta a:hover {
-	color: #074B75;
+	color: #0C85CF;
 }
 
 .post-excerpt .more {
@@ -1319,7 +1319,7 @@ h1.footer {
 }
 
 .post-excerpt .more a:hover {
-    background-color: #074B75;
+    background-color: #0C85CF;
     color: #fff;
 }
 
@@ -1367,9 +1367,9 @@ aside.widget {
 }
 
 .tab-post-nav li.active a {
-	border-top: 3px solid #074B75;
+	border-top: 3px solid #0C85CF;
 	background-color: #2F383D;
-	color: #074B75;
+	color: #0C85CF;
 }
 
 .tab-pane.active .clearfix:first-child {
@@ -1387,7 +1387,7 @@ aside.widget {
 }
 
 .tab-excerpt h4 a:hover {
-	color: #074B75;
+	color: #0C85CF;
 }
 
 .tab-post-nav li a {
@@ -1409,7 +1409,7 @@ aside.widget {
 
 .categories > li:hover a {
     padding-left: 10px;
-    color: #074B75;
+    color: #0C85CF;
 }
 
 .categories > li:last-child {
@@ -1430,7 +1430,7 @@ aside.widget {
 }
 
 .widget-content .tag:hover {
-    background-color: #074B75;
+    background-color: #0C85CF;
     color: #fff;
 }
 
@@ -1466,7 +1466,7 @@ aside.widget {
 
 .post-pagination ul li a:hover,
 .post-pagination ul li.active a {
-    background-color: #074B75;
+    background-color: #0C85CF;
     color: #fff;
 }
 
@@ -1481,7 +1481,7 @@ aside.widget {
 }
 
 blockquote {
-    border-left: 5px solid #074B75;
+    border-left: 5px solid #0C85CF;
     font-style: italic;
     line-height: 22px;
     margin: 20px 0;
@@ -1495,7 +1495,7 @@ blockquote {
 }
 
 .next-prev a:hover {
-    color: #074B75;
+    color: #0C85CF;
 }
 
 .prev-post i {
@@ -1566,7 +1566,7 @@ blockquote {
 }
 
 .author-comment cite a:hover, .replay:hover {
-    color: #074B75;
+    color: #0C85CF;
     text-decoration: underline;
 }
 
@@ -1592,7 +1592,7 @@ blockquote {
 }
 
 #comment-form .form-control:hover {
-    border-color: #074B75;
+    border-color: #0C85CF;
 }
 
 .form-group:last-child,

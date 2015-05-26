@@ -150,7 +150,7 @@ jQuery(function ($) { "use strict";
 	$(".chart").appear(function () {
 		$(".chart").easyPieChart({
 			easing: "easeOutBounce",
-			barColor: "#ff9400",
+			barColor: "#0c85cf",
 			size: "150",
 			lineWidth: 15,
 			animate: 2e3,
@@ -286,18 +286,18 @@ jQuery(function ($) { "use strict";
 
 	function initialize() {
 
-		var myLatLng = new google.maps.LatLng(55.864237, -4.251805);
+		var myLatLng = new google.maps.LatLng(55.859331, -4.260800);
 
 		var roadAtlasStyles = [{
 			"featureType": "landscape",
 			"elementType": "geometry.fill",
 			"stylers": [{
-				"color": "#074B75"
+				"color": "#d1d1d1"
 			}]
 		}, {
 			"elementType": "labels.text.fill",
 			"stylers": [{
-				"color": "#FFFFFF"
+				"color": "#0c85cf"
 			}]
 		}, {
 			"elementType": "labels.text.stroke",
@@ -308,7 +308,7 @@ jQuery(function ($) { "use strict";
 			"featureType": "road",
 			"elementType": "geometry.fill",
 			"stylers": [{
-				"color": "#ff9400"
+				"color": "#e3e3e3"
 			}]
 		}, {
 			"featureType": "road",
@@ -316,7 +316,7 @@ jQuery(function ($) { "use strict";
 			"stylers": [{
 				"visibility": "on"
 			}, {
-				"color": "#808080"
+				"color": "#fafafa"
 			}]
 		}, {
 			"featureType": "poi",
@@ -334,13 +334,13 @@ jQuery(function ($) { "use strict";
 			"featureType": "poi",
 			"elementType": "geometry",
 			"stylers": [{
-				"color": "#808080"
+				"color": "#0c85cf"
 			}]
 		}, {
 			"featureType": "water",
 			"elementType": "geometry.fill",
 			"stylers": [{
-				"color": "#3071a7"
+				"color": "#3c9ae8"
 			}, {
 				"saturation": -65
 			}]
@@ -354,12 +354,12 @@ jQuery(function ($) { "use strict";
 			"featureType": "landscape",
 			"elementType": "geometry.stroke",
 			"stylers": [{
-				"color": "#bbbbbb"
+				"color": "#fafafa"
 			}]
 		}];
 
 		var mapOptions = {
-			zoom: 14,
+			zoom: 15,
 			center: myLatLng,
 			disableDefaultUI: true,
 			scrollwheel: false,

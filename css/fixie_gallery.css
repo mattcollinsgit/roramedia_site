@@ -1,10 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,900);
+
 .fixie {
     padding-top:200px;
 }
 
-#whiteheader {
-margin-top:50px;
+#phraseID, #weekdayID {
+    margin-top:0px;
+    padding-top: 0px;
+    font-size: 80px;
+    position: sticky;
 }
+#pharseID {}
+#weekdayID {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 110px;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+
+    #pharseID {
+    
+    font-size:;
+        
+    }
+    
+    #weekdayID {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 110px;
+}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
 
 ul.fixie {
   width: 88vw;

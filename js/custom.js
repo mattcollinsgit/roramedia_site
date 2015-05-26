@@ -424,6 +424,9 @@ $(function() {
 
 		var $navArrows = $( '#nav-arrows' ),
 			$nav = $( '#nav-dots > span' ),
+            $autoSlide =  setInterval(function () {
+                slitslider.next();
+            }, 4000),
 			slitslider = $( '#slitSlider' ).slitslider( {
 			
 			    speed : 1600,
@@ -439,6 +442,7 @@ $(function() {
 			init = function() {
 				initEvents();				
 			},
+            
 			initEvents = function() {
 				// add navigation events
 				$navArrows.children( ':last' ).on( 'click', function() {

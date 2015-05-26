@@ -103,16 +103,18 @@ ul.fixie li:after {
 
 ul.fixie li:hover:before {
   position: absolute;
-  content: 'See more images';
+  content: 'Visit Project';
   font-family: 'Open Sans Condensed', sans-serif;
   color: white;
+    background: rgba(12, 133, 207, 0.8);
   text-transform: uppercase;
   letter-spacing: 1pt;
   top: 40%;
   left: 30%;
   z-index: 1;
   padding-top: 20px;
-    
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -120,6 +122,5 @@ ul.fixie li:hover:before {
 ul.fixie img {
   width: 100% !important;
   height: auto !important;
-  display: inline-block;
   -webkit-filter: grayscale(20%);
 }

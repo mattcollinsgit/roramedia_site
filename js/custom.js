@@ -316,7 +316,7 @@ jQuery(function ($) { "use strict";
 			"stylers": [{
 				"visibility": "on"
 			}, {
-				"color": "#fafafa"
+				"color": "#bcbcbc"
 			}]
 		}, {
 			"featureType": "poi",
@@ -334,7 +334,7 @@ jQuery(function ($) { "use strict";
 			"featureType": "poi",
 			"elementType": "geometry",
 			"stylers": [{
-				"color": "#0c85cf"
+				"color": "#bfc2cc"
 			}]
 		}, {
 			"featureType": "water",
@@ -348,7 +348,7 @@ jQuery(function ($) { "use strict";
 			"featureType": "road",
 			"elementType": "labels.icon",
 			"stylers": [{
-				"visibility": "off"
+				"visibility": "on"
 			}]
 		}, {
 			"featureType": "landscape",
@@ -359,13 +359,13 @@ jQuery(function ($) { "use strict";
 		}];
 
 		var mapOptions = {
-			zoom: 15,
+			zoom: 14,
 			center: myLatLng,
 			disableDefaultUI: true,
 			scrollwheel: false,
 			navigationControl: false,
 			mapTypeControl: false,
-			scaleControl: false,
+			scaleControl: true,
 			draggable: false,
 			mapTypeControlOptions: {
 				mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'roadatlas']
@@ -379,7 +379,7 @@ jQuery(function ($) { "use strict";
 			position: myLatLng,
 			map: map,
 			icon: 'img/location-icon.png',
-			title: '',
+			title: 'Rora Media!',
 		});
 
 
@@ -388,7 +388,7 @@ jQuery(function ($) { "use strict";
 		});
 
 		var styledMapOptions = {
-			name: 'US Road Atlas'
+			name: 'Road Atlas'
 		};
 
 		var usRoadMapType = new google.maps.StyledMapType(

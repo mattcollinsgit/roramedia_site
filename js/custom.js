@@ -517,7 +517,7 @@ $(window).bind("load", function () {
     var da = new Date();
     var weekday = new Array(7);
     weekday[0] = "Sunday";
-    weekday[1] = "Monday";
+    weekday[1] = "Mondays";
     weekday[2] = "Tuesday";
     weekday[3] = "Humpday!";
     weekday[4] = "Friday";

@@ -16,9 +16,14 @@
 	Basic Setup
 ==================================================================*/
 
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
     background-color: #fafafa;
-	  font-family: 'Open Sans','Ubuntu', 'Arial', sans-serif;
+    font-family: 'Open Sans','Ubuntu', 'Arial', sans-serif;
     color: #000;
     font-weight: 100;
     }
@@ -39,7 +44,6 @@ figure {
 
 a {
     color: #0c85cf;
-
 	-webkit-transition: all .3s ease-in 0s;
 	   -moz-transition: all .3s ease-in 0s;
 		 -o-transition: all .3s ease-in 0s;
@@ -839,60 +843,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #0c85cf;
 }
 
-/*=================================================================
-	Pricing section
-==================================================================*/
-
-#pricing {
-    padding: 70px 0;
-}
-
-.pricing {
-	background-color: #fafafafafafa;
-}
-
-.price-title {
-  background-color: #fafafafafafa;
-  padding: 30px 0 20px;
-}
-
-.price-title > h3 {
-    color: #0c85cf;
-    font-family: Oswald;
-    font-weight: 700;
-    margin: 0 0 10px;
-    text-transform: uppercase;
-}
-
-.price-title > p {
-    font-size: 18px;
-    font-weight: 400;
-}
-
-
-.price-title .value {
-	color: #222222;
-	font-size: 30px;
-}
-
-.pricing li {
-    border-top: 2px solid #fafafafafafa;
-    font-weight: 400;
-    padding: 10px 0;
-}
-
-.pricing li:last-child {
-    border-bottom: 2px solid #e7e7e7;
-}
-
-.pricing li:nth-child(2n) {
-    background-color: #e3e3e3;
-}
-
-.pricing a.btn {
-    text-transform: uppercase;
-	margin: 20px 0;
-}
 
 
 
@@ -1625,7 +1575,7 @@ blockquote {
 }
 
 #rorabluebg h1 {
- padding-top:10px;
+    padding-top:10px;
     font-size:80px;
 }
 

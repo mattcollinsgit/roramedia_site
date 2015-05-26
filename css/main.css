@@ -16,9 +16,14 @@
 	Basic Setup
 ==================================================================*/
 
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
     background-color: #fafafa;
-	  font-family: 'Open Sans','Ubuntu', 'Arial', sans-serif;
+    font-family: 'Open Sans','Ubuntu', 'Arial', sans-serif;
     color: #000;
     font-weight: 100;
     }
@@ -39,7 +44,6 @@ figure {
 
 a {
     color: #0c85cf;
-
 	-webkit-transition: all .3s ease-in 0s;
 	   -moz-transition: all .3s ease-in 0s;
 		 -o-transition: all .3s ease-in 0s;
@@ -1571,7 +1575,7 @@ blockquote {
 }
 
 #rorabluebg h1 {
- padding-top:10px;
+    padding-top:10px;
     font-size:80px;
 }
 

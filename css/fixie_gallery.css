@@ -102,21 +102,24 @@ ul.fixie li:after {
 }
 
 ul.fixie li:hover:before {
-  position: absolute;
-  content: 'Visit Project';
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: white;
-    background: rgba(12, 133, 207, 0.8);
-  text-transform: uppercase;
-  letter-spacing: 1pt;
-  top: 40%;
-  left: 30%;
-  z-index: 1;
-  padding-top: 20px;
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    content: 'Visit Project';
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    top: 40%;
+    left: 30%;
+    z-index: 1;
+    padding-top: 20px;
+    background-position: center;
+    background: rgba(12, 133, 207, 1);
+
 }
 
+.holoblue {
+    position: relative;
+}
 
 
 ul.fixie img {

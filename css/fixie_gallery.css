@@ -1,3 +1,5 @@
+/* This gallery was cool before it got popular*/
+
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,900);
 
 .fixie {
@@ -112,10 +114,12 @@ ul.fixie li:hover:before {
     left: 30%;
     z-index: 1;
     padding-top: 20px;
-    background-position: center;
-    background: rgba(12, 133, 207, 1);
+    
 }
 
+ul.fixie li a img:hover:after {
+    background: rgba(12, 133, 207, 1);
+}
 
 
 

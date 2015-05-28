@@ -217,13 +217,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-one {
-    background: #FFF;
+    background: #0c85cf;
     background-attachment: fixed !important;
-	/*
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	*/
 }
 
 .parallax-section {
@@ -472,13 +467,8 @@ h1, h2, h3, h4, h5, h6 {
 .service-block {
 	background-color: #fafafa;
     padding: 50px 20px;
-    border-left: 1px solid #4e595f;
-    border-top: 1px solid #4e595f;
-    margin-bottom: 40px;
-
-	-webkit-box-shadow:2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(256, 256, 256, .7);
-	   -moz-box-shadow:2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(256, 256, 256, .7);
-			box-shadow:2px 2px 5px rgba(44, 44, 44, .3), 13px 13px 0 rgba(256, 256, 256, .7);
+    margin-bottom: 0px;
+    height: 30vh;
 }
 
 .service-icon {
@@ -1620,3 +1610,39 @@ height: 100vh
     height: auto;
     margin: 0 auto;
 }
+
+
+
+#about_rora_media_image {
+    background: url("../img/portfolio/vled_devices.png") no-repeat center center;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+}
+
+#services_rora_media_image {
+    background: url("../img/portfolio/vled_devices.png") no-repeat center center;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+}
+
+#gallery_rora_media_image {
+      background: url("../img/portfolio/vled_devices.png") no-repeat center center;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;  
+}
+
+#contact_rora_media_image {
+        background: url("../img/portfolio/vled_devices.png") no-repeat center center;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+}
+
+

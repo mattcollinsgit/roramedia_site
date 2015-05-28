@@ -1663,3 +1663,11 @@ h2.weekday_sub {
     background-attachment: fixed !important;
 }
 
+
+h2.nice_to_meet {
+    text-align: center;
+}
+
+p.nice_to_meet{
+ text-align:center;   
+}

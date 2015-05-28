@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     top: 0;
     z-index: 11;
-	background-color: rgba(255,255,255,.5);
+	background-color: rgba(0,0,0,.5);
 }
 
 #slitSlider .carousel-caption a {
@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #slitSlider .carousel-caption h2 {
-    color: #0c85cf;
+    color: #fff;
     font-family: Oswald, sans-serif;
     font-size: 70px;
     font-weight: 700;

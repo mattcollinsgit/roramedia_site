@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================*/
 
 .navbar-inverse {
-	background-color: rgba(0,0,0,0.99);
+	background-color: rgba(255,255,255,0.99);
 	width: 100%;
 	z-index: 99;
 
@@ -304,9 +304,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #fafafa;
-    line-height: 70px;
-    font-size: 23px;
+    color: #000;
+    line-height: 30px;
+    font-size: 20px;
     font-weight:300;
     padding: 20px 15px;
 
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-inverse .navbar-nav > li.current > a {
-    color: #000;
+    color: #0c85cf;
 
 }
 
